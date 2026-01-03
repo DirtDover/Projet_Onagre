@@ -1,3 +1,3 @@
-import SidebarMenu from "./SidebarMenu";
+import SidebarMenuApp from "./SidebarMenu";
 
-export default SidebarMenu
+export default SidebarMenuApp

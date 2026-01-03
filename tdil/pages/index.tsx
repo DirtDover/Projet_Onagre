@@ -1,4 +1,4 @@
-import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import { SidebarProvider } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/organisms/SidebarMenu/SidebarMenu";
 
 export default function Home() {
@@ -7,9 +7,6 @@ export default function Home() {
         <div>
             <SidebarProvider>
                 <AppSidebar />
-                <main>
-                    <SidebarTrigger />
-                </main>
             </SidebarProvider>
         </div>
     );
