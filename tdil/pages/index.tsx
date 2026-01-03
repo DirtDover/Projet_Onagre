@@ -1,7 +1,16 @@
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
+import AppSidebar from "@/components/organisms/SidebarMenu/SidebarMenu";
+
 export default function Home() {
     return (
+
         <div>
-            <h1>TDIL </h1>
+            <SidebarProvider>
+                <AppSidebar />
+                <main>
+                    <SidebarTrigger />
+                </main>
+            </SidebarProvider>
         </div>
     );
 }
